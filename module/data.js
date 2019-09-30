@@ -1,4 +1,4 @@
-class Fragment {
+class Data {
   constructor(container) {
 
   }
@@ -13,4 +13,4 @@ class Fragment {
 }
 
 
-module.exports = (container) => new Fragment(container);
+module.exports = (container) => new Data(container);
