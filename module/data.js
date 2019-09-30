@@ -1,3 +1,7 @@
+/**
+ * Prepares data for rendering
+ */
+
 class Data {
   constructor(container) {
 
