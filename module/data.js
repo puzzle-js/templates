@@ -17,4 +17,4 @@ class Data {
 }
 
 
-module.exports = (container) => new Data(container);
+module.exports = Data;

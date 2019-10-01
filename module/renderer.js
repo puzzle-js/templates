@@ -18,4 +18,4 @@ class Renderer extends RenderWorker {
   }
 }
 
-module.exports = () => new Renderer();
+module.exports = Renderer;

@@ -9,4 +9,4 @@ class Api {
 }
 
 
-module.exports = (container) => new Api(container);
+module.exports = Api;
