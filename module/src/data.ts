@@ -1,13 +1,12 @@
-/**
- * Prepares data for rendering
- */
+import {DataProvider} from "@puzzle-js/module";
 
+@DataProvider()
 class Data {
   constructor(container) {
 
   }
 
-  data(request) {
+  handler(request) {
     return {
       data: {
         name: '###module_name###'
@@ -17,4 +16,6 @@ class Data {
 }
 
 
-module.exports = Data;
+export {
+  Data
+}

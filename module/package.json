@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@puzzle-js/core": "^2.1.0"
+    "@puzzle-js/module": "1.0.0"
   }
 }

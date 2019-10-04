@@ -1,3 +1,6 @@
+import {ApiHandler} from "@puzzle-js/module";
+
+@ApiHandler()
 class Api {
   constructor(container) {
 
@@ -9,4 +12,6 @@ class Api {
 }
 
 
-module.exports = Api;
+export {
+  Api
+}
