@@ -7,7 +7,7 @@ import {Data} from "./data";
 
 const module = new Module();
 
-module.bootstrap([
+module.bootstrap('###module_name###', [
   Api,
   Renderer,
   Data

@@ -1,11 +1,9 @@
-import {DataProvider} from "@puzzle-js/module";
+import {DataService, data} from "@puzzle-js/module";
 
-@DataProvider()
+@DataService()
 class Data {
-  constructor(container) {
 
-  }
-
+  @data()
   handler(request) {
     return {
       data: {

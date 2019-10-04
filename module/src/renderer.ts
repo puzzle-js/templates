@@ -1,8 +1,9 @@
-import {render, placeholder, FragmentRenderer} from "@puzzle-js/module";
+import {RenderService, placeholder, render} from "@puzzle-js/module";
 
-@FragmentRenderer()
+@RenderService()
 class Renderer {
-  @render
+
+  @render()
   render(data) {
     const {name} = data;
     return {
@@ -10,7 +11,7 @@ class Renderer {
     }
   }
 
-  @placeholder
+  @placeholder()
   placeholder(data) {
     return `placeholder ${data}`;
   }
