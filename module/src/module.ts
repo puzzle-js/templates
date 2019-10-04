@@ -1,16 +1,15 @@
 import Module from "@puzzle-js/module";
 
-import {Api} from "@puzzle-js/core/dist/api";
+import {Api} from "./api";
 import {Renderer} from "./renderer";
 import {Data} from "./data";
 
-
-const module = new Module();
-
-module.bootstrap('###module_name###', [
-  Api,
-  Renderer,
-  Data
-]);
-
-export = module;
+@Module({
+  name: '###module_name###',
+  bootstrap: [
+    Api,
+    Renderer,
+    Data
+  ]
+})
+export class AppModule {}
